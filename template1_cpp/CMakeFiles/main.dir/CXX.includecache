@@ -1,0 +1,70 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ivan/Рабочий стол/msu_cmc_cg_2021/template1_cpp/Image.h
+string
+-
+
+/home/ivan/Рабочий стол/msu_cmc_cg_2021/template1_cpp/Player.h
+Image.h
+/home/ivan/Рабочий стол/msu_cmc_cg_2021/template1_cpp/Image.h
+
+/home/ivan/Рабочий стол/msu_cmc_cg_2021/template1_cpp/common.h
+iostream
+-
+fstream
+-
+string
+-
+glad/glad.h
+-
+
+/home/ivan/Рабочий стол/msu_cmc_cg_2021/template1_cpp/main.cpp
+common.h
+/home/ivan/Рабочий стол/msu_cmc_cg_2021/template1_cpp/common.h
+Image.h
+/home/ivan/Рабочий стол/msu_cmc_cg_2021/template1_cpp/Image.h
+Player.h
+/home/ivan/Рабочий стол/msu_cmc_cg_2021/template1_cpp/Player.h
+iostream
+-
+fstream
+-
+GLFW/glfw3.h
+-
+unistd.h
+-
+
+dependencies/include/GLAD/KHR/khrplatform.h
+stdint.h
+-
+inttypes.h
+-
+stdint.h
+-
+
+dependencies/include/GLAD/glad/glad.h
+windows.h
+-
+stddef.h
+-
+KHR/khrplatform.h
+-
+inttypes.h
+-
+inttypes.h
+-
+inttypes.h
+-
+stdint.h
+-
+stdint.h
+-
+inttypes.h
+-
+
